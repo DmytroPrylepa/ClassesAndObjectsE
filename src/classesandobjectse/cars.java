@@ -8,11 +8,18 @@ package classesandobjectse;
  *
  * @author upgra
  */
-public class cars {
+public class Car {
     String manufacturer;
     String model;
     String colour;
     int numWheels;
+
+    public Car(String manufacturer, String model, String colour, int numWheels) {
+        this.manufacturer = manufacturer;
+        this.model = model;
+        this.colour = colour;
+        this.numWheels = numWheels;
+    }
     
     public void Drive (double direction) {
         System.out.printf("the %s %s is driving at %s degrees", colour, manufacturer, direction);

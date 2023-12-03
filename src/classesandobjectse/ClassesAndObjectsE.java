@@ -14,8 +14,8 @@ public class ClassesAndObjectsE {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-      
-       
+      Cars car1 = new Cars(XXX, Mustang, Red, 4);
+      car1.Drive(90);     
     }
     
 }
