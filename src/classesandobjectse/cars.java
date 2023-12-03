@@ -23,7 +23,7 @@ public class Cars {
     
     
     public void Drive(String direction)   {
-        System.out.println("The" + colour + " " + manufacturer + " is driving" + direction);
+        System.out.println("The " + colour + " " + manufacturer + " " + model + " is driving " + direction);
         
 }
 }
