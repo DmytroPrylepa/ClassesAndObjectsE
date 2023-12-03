@@ -9,5 +9,8 @@ package classesandobjectse;
  * @author upgra
  */
 public class cars {
-    
+        String manufacturer;
+    String model;
+    String colour;
+    int numWheels;
 }
