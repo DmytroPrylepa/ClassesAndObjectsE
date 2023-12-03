@@ -15,7 +15,10 @@ public class ClassesAndObjectsE {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("lets start!");
+        Cars car1 = new Cars("Opel", "Mokka", "Black", 4);
+        car1.Drive("back");
+        
+        
        
     }
     
