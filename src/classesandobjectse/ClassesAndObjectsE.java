@@ -6,7 +6,7 @@ package classesandobjectse;
 
 /**
  *
- * @author upgra
+ * @author dmytro
  */
 public class ClassesAndObjectsE {
 
@@ -15,6 +15,8 @@ public class ClassesAndObjectsE {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("lets start!");
+       
     }
     
 }
