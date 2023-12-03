@@ -9,8 +9,19 @@ package classesandobjectse;
  * @author upgra
  */
 public class cars {
+<<<<<<< HEAD
         String manufacturer;
     String model;
     String colour;
     int numWheels;
+=======
+    String manufacturer;
+    String model;
+    String colour;
+    int numWheels;
+    
+    public void Drive (double direction) {
+        System.out.printf("the %s %s is driving at %s degrees", colour, manufacturer, direction);
+    }
+>>>>>>> doubleDrive
 }
