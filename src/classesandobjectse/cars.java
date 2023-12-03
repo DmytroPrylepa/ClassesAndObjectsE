@@ -6,15 +6,15 @@ package classesandobjectse;
 
 /**
  *
- * @author upgra
+ * @author dmytro
  */
-public class Car {
+public class Cars {
     String manufacturer;
     String model;
     String colour;
     int numWheels;
 
-    public Car(String manufacturer, String model, String colour, int numWheels) {
+    public Cars(String manufacturer, String model, String colour, int numWheels) {
         this.manufacturer = manufacturer;
         this.model = model;
         this.colour = colour;
@@ -25,3 +25,4 @@ public class Car {
         System.out.printf("the %s %s is driving at %s degrees", colour, manufacturer, direction);
     }
 }
+

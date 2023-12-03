@@ -11,11 +11,12 @@ package classesandobjectse;
 public class ClassesAndObjectsE {
 
     /**
-     * @param args the command line arguments
+     * @param args the command lin  e arguments
      */
     public static void main(String[] args) {
-      Cars car1 = new Cars(XXX, Mustang, Red, 4);
-      car1.Drive(90);     
+      Cars car1 = new Cars("Ford", "Mustang", "Red", 4);
+      car1.Drive(45);
+      
     }
     
 }
